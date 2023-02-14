@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+  <ClipSetMaps>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_STD_BASIC_FRONT_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@std@ds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_STD_BASIC_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@std@ps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+  </ClipSetMaps>
+  <VehicleCoverBoundOffsetInfos>
+    <Item type="CVehicleCoverBoundOffsetInfo">
+      <Name>KALAHARI_COVER_OFFSET_INFO</Name>
+      <ExtraSideOffset value="0.000000" />
+      <ExtraForwardOffset value="-0.050000" />
+      <ExtraBackwardOffset value="-0.140000" />
+      <ExtraZOffset value="0.300000" />
+      <CoverBoundInfos />
+    </Item>
+    <Item type="CVehicleCoverBoundOffsetInfo">
+      <Name>BIFTA_COVER_OFFSET_INFO</Name>
+      <ExtraSideOffset value="0.100000" />
+      <ExtraForwardOffset value="-0.200000" />
+      <ExtraBackwardOffset value="-0.250000" />
+      <ExtraZOffset value="1.000000" />
+      <CoverBoundInfos>
+        <Item>
+          <Name>Front</Name>
+          <Position x="0.000000" y="1.120000" z="0.000000" />
+          <Length value="0.800000" />
+          <Width value="1.800000" />
+          <Height value="1.000000" />
+          <ActiveBoundExclusions />
+        </Item>
+        <Item>
+          <Name>MIDDLE1</Name>
+          <Position x="0.000000" y="0.430000" z="0.000000" />
+          <Length value="0.580000" />
+          <Width value="1.500000" />
+          <Height value="1.000000" />
+          <ActiveBoundExclusions />
+        </Item>
+        <Item>
+          <Name>MIDDLE2</Name>
+          <Position x="0.000000" y="-0.200000" z="0.000000" />
+          <Length value="0.665000" />
+          <Width value="1.650000" />
+          <Height value="1.000000" />
+          <ActiveBoundExclusions />
+        </Item>
+        <Item>
+          <Name>REAR</Name>
+          <Position x="0.000000" y="-1.135000" z="0.000000" />
+          <Length value="1.185000" />
+          <Width value="1.800000" />
+          <Height value="1.000000" />
+          <ActiveBoundExclusions />
+        </Item>
+      </CoverBoundInfos>
+    </Item>
+  </VehicleCoverBoundOffsetInfos>
+  <VehicleExtraPointsInfos>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONT_LEFT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.536000" y="-0.573200" z="0.750000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN_2</PointType>
+          <Position x="-0.750000" y="-1.530000" z="0.675000" />
+          <Heading value="-0.900000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN_3</PointType>
+          <Position x="0.050000" y="-1.480000" z="0.725000" />
+          <Heading value="-0.210000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONT_RIGHT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.536000" y="-0.573200" z="0.750000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN_2</PointType>
+          <Position x="1.850000" y="-1.415000" z="0.550000" />
+          <Heading value="1.575000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONTCLIMB_LEFT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.536000" y="-0.573200" z="0.750000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>VAULT_HAND_HOLD</PointType>
+          <Position x="-0.675000" y="-1.805000" z="0.425000" />
+          <Heading value="1.570000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONTCLIMB_RIGHT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.536000" y="-0.573200" z="0.750000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>VAULT_HAND_HOLD</PointType>
+          <Position x="1.825000" y="-1.805000" z="0.425000" />
+          <Heading value="-1.570000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+	<Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_REARCLIMB_LEFT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.000000" y="0.600000" z="0.600000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>VAULT_HAND_HOLD</PointType>
+          <Position x="0.050000" y="-0.705000" z="0.300000" />
+          <Heading value="2.795000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_REARCLIMB_RIGHT</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.000000" y="0.600000" z="0.660000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>VAULT_HAND_HOLD</PointType>
+          <Position x="-0.550000" y="-0.780000" z="0.375000" />
+          <Heading value="-3.000000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+    <Item type="CVehicleExtraPointsInfo">
+      <Name>EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_REARCLIMB_BACK</Name>
+      <ExtraVehiclePoints>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>GET_IN</PointType>
+          <Position x="0.000000" y="0.600000" z="0.660000" />
+          <Heading value="0.000000" />
+          <BoneName />
+        </Item>
+        <Item>
+          <LocationType>SEAT_RELATIVE</LocationType>
+          <PointType>VAULT_HAND_HOLD</PointType>
+          <Position x="-1.675000" y="-3.875000" z="-0.325000" />
+          <Heading value="2.825000" />
+          <BoneName />
+        </Item>
+      </ExtraVehiclePoints>
+    </Item>
+  </VehicleExtraPointsInfos>
+  <VehicleSeatAnimInfos>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_BOAT_SPEEDER_PASSENGER_REAR</Name>
+      <DriveByInfo ref="DRIVEBY_BOAT_SPEED_REAR_RIGHT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_BOAT_PASSENGER_REAR" />
+      <PanicClipSet>clipset@veh@boat@passenger@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+      <LowLODIdleAnim>BOAT_PASSENGER</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>CannotBeJacked CanDetachViaRagdoll HasPanicAnims RagdollWhenVehicleUpsideDown UseBoatInVehicleAnims PreventShuffleJack</SeatAnimFlags>
+      <SteeringSmoothing value="0.050000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+  </VehicleSeatAnimInfos>
+  <VehicleEntryPointInfos>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_FRONT_LEFT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BOAT_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONT_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_FRONT_RIGHT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_BOAT_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONT_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_FRONTCLIMB_LEFT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+		<Seat ref="SEAT_BOAT_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONTCLIMB_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_FRONTCLIMB_RIGHT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+		<Seat ref="SEAT_BOAT_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_FRONTCLIMB_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_REARCLIMB_LEFT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_FRONT_RIGHT" />
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+	  </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_REARCLIMB_LEFT" />
+      <Flags>UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_REARCLIMB_RIGHT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_FRONT_RIGHT" />
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_REARCLIMB_RIGHT" />
+      <Flags>UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_BOAT_SPEEDER_REARCLIMB_BACK</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_FRONT_RIGHT" />
+		<Seat ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_BOAT_SPEEDER_REARCLIMB_BACK" />
+      <Flags>UseFirstMulipleAccessSeatForDirectEntryPoint</Flags>
+    </Item>
+  </VehicleEntryPointInfos>
+  <VehicleEntryPointAnimInfos>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONT_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.600000" y="-1.758100" z="0.288800" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasClimbUp JackIncludesGetIn HasOnVehicleEntry HasClimbUpFromWater UseSeatClipSetAnims JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONT_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.165000" y="-1.580500" z="0.274400" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasClimbUp JackIncludesGetIn HasOnVehicleEntry HasClimbUpFromWater UseSeatClipSetAnims JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONTCLIMB_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.600000" y="-1.758100" z="0.288800" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasVaultUp JackIncludesGetIn HasOnVehicleEntry UseStandOnGetIn UseSeatClipSetAnims DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONTCLIMB_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.165000" y="-1.580500" z="0.274400" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasVaultUp JackIncludesGetIn HasOnVehicleEntry UseStandOnGetIn UseSeatClipSetAnims DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_REARCLIMB_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_MARQUIS_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.275000" y="-1.575000" z="0.150000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasVaultUp HasOnVehicleEntry UseStandOnGetIn UseSeatClipSetAnims</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_REARCLIMB_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_MARQUIS_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.275000" y="-1.075000" z="0.200000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.000000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasVaultUp HasOnVehicleEntry UseStandOnGetIn UseSeatClipSetAnims</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_BOAT_SPEEDER_REARCLIMB_BACK</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_BOAT_MARQUIS_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.800000" y="-4.350000" z="0.100000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="0.300000" />
+      <ExtraZForWaterEntry value="1.000000" />
+      <EntryPointFlags>HasVaultUp HasOnVehicleEntry UseStandOnGetIn UseSeatClipSetAnims</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_STD_BASIC_FRONT_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_AUTOMOBILE_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_STD_BASIC_FRONT_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_STD_FRONT_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-0.842000" y="-0.551000" z="0.500000" />
+      <OpenDoorTranslation x="-0.050000" y="0.150000" />
+      <OpenDoorHeadingChange value="1.570000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UsesNoDoorTransitionForExit UseOpenDoorBlendAnims UseGetUpAfterJack JackVariationsIncludeGetIn HasCombatEntry</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+      <NMJumpFromVehicleTuningSet>Standard</NMJumpFromVehicleTuningSet>
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_STD_BASIC_FRONT_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_AUTOMOBILE_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_STD_BASIC_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_STD_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="0.822600" y="-0.551700" z="0.500000" />
+      <OpenDoorTranslation x="0.050000" y="0.150000" />
+      <OpenDoorHeadingChange value="-1.570000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UsesNoDoorTransitionForExit UseOpenDoorBlendAnims UseGetUpAfterJack JackVariationsIncludeGetIn HasCombatEntry</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+  <VehicleLayoutInfos>
+    <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_BOAT_SPEEDER</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_JETMAX_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_SPEEDER_PASSENGER_REAR" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_SPEEDER_PASSENGER_REAR" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_BOAT_SPEEDER_PASSENGER_REAR" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_FRONTCLIMB_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONTCLIMB_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_FRONTCLIMB_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_FRONTCLIMB_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_REARCLIMB_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_REARCLIMB_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_REARCLIMB_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_REARCLIMB_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_BOAT_SPEEDER_REARCLIMB_BACK" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_BOAT_SPEEDER_REARCLIMB_BACK" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseLeanSteerAnims DisableJackingAndBusting</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+	  <AnimRateSet ref="BOAT_ANIM_RATE_SET" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+    <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_STD_BASIC</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STANDARD_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_STANDARD_FRONT_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STD_BASIC_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_STD_BASIC_FRONT_RIGHT" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseDoorOscillation UseLeanSteerAnims UseSteeringWheelIk UseFinerAlignTolerance</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+	  <AnimRateSet ref="STD_LOW_ANIM_RATE_SET" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+	  <MaxXAcceleration value="4.00000" />
+	  <BodyLeanXApproachSpeed value="5.00000" />
+	  <BodyLeanXSmallDelta value="0.30000" />
+	  <LookBackApproachSpeedScale value="1.00000" />
+    </Item>
+  </VehicleLayoutInfos>
+</CVehicleMetadataMgr>
